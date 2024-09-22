@@ -11,4 +11,15 @@ export interface Proxy {
 }
 
 // 代理
-export let PROXYS = [];
+let PROXYS: Proxy[] = [
+    {
+        domain: "easy-reverse-proxy-xi.vercel.app",
+        url: "https://www.microsoft.com/",
+        enable: true
+    },
+    {
+        domain: "easy-reverse-proxy-xi.vercel.app",
+        url: "https://www.google.com/",
+        enable: true
+    }
+]
