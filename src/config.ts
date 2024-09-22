@@ -5,7 +5,7 @@ export interface Proxy
 }
 
 // 代理
-let PROXYS: Proxy[] = [
+export let PROXYS: Proxy[] = [
     {
         domain: "easy-reverse-proxy-xi.vercel.app",
         url: "https://www.google.com/"
